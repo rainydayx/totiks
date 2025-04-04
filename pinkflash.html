@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOTIKS - PINKFLASH Makeup Set</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+            color: #212121;
+        }
+
+        header {
+            background-color: #ee4d2d;
+            padding: 15px 20px;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            margin-right: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ffc226;
+        }
+
+        .product-details {
+            padding: 30px;
+            background-color: white;
+            margin: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: flex-start;
+        }
+
+        .product-details img {
+            width: 100%;
+            max-width: 450px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+        }
+
+        .product-info {
+            max-width: 550px;
+        }
+
+        .price {
+            color: #ee4d2d;
+            font-weight: 700;
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+
+        .description {
+            line-height: 1.7;
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+            color: #333;
+        }
+
+        .reviews {
+            margin-bottom: 25px;
+        }
+
+        .reviews h3 {
+            font-size: 1.4rem;
+            margin-bottom: 10px;
+            color: #444;
+        }
+
+        .reviews p {
+            margin-bottom: 8px;
+            font-size: 1rem;
+            color: #555;
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-radius: 6px;
+        }
+
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            width: 100%;
+            max-width: 350px;
+        }
+
+        .button-container button {
+            padding: 15px 20px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: transform 0.2s ease;
+        }
+
+        .button-container button:hover {
+            transform: scale(1.05);
+        }
+
+        .button-add-to-cart {
+            background-color: #ffc226;
+            color: #212121;
+        }
+
+        .button-buy-now {
+            background-color: #ee4d2d;
+            color: white;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f0f0f0;
+            color: #666;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>TOTIKS</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="category.html">Categories</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="product-details">
+        <img src="https://assets.onecompiler.app/437dmmg9k/43ddn3ny5/sg-11134201-22100-ozxqck7c67iv47.webp" alt="PINKFLASH Makeup Set">
+        <div class="product-info">
+            <h2>PINKFLASH MAKEUP SET Long Lasting Waterproof Mascara Black Eyeliner With Free Eyebrow Pencil</h2>
+            <p class="price">₱499</p>
+            <p class="description">PINKFLASH EYE MAKEUP SET<br><br>Kit includes:<br><br>black mascara *1<br>black eyeliner *1<br>Eyelash curler *1<br><br>GIVEAWAY: eyebrow pencil #2 Brown *1</p>
+            <div class="reviews">
+                <h3>Reviews</h3>
+                <p>⭐⭐⭐⭐☆ - Great product!</p>
+                <p>⭐⭐⭐⭐⭐ - Excellent quality!</p>
+            </div>
+            <div class="button-container">
+                <button class="button-add-to-cart">Add to Cart</button>
+                <button class="button-buy-now">Buy Now</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 TOTIKS</p>
+    </footer>
+</body>
+</html>

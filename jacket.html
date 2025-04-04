@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOTIKS - adidas Z.N.E. Hoodie</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+            color: #212121;
+        }
+
+        header {
+            background-color: #ee4d2d;
+            padding: 15px 20px;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            margin-right: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ffc226;
+        }
+
+        .product-details {
+            padding: 30px;
+            background-color: white;
+            margin: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: flex-start;
+        }
+
+        .product-details img {
+            width: 100%;
+            max-width: 450px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+        }
+
+        .product-info {
+            max-width: 550px;
+        }
+
+        .price {
+            color: #ee4d2d;
+            font-weight: 700;
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+
+        .description {
+            line-height: 1.7;
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+            color: #333;
+        }
+
+        .reviews {
+            margin-bottom: 25px;
+        }
+
+        .reviews h3 {
+            font-size: 1.4rem;
+            margin-bottom: 10px;
+            color: #444;
+        }
+
+        .reviews p {
+            margin-bottom: 8px;
+            font-size: 1rem;
+            color: #555;
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-radius: 6px;
+        }
+
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            width: 100%;
+            max-width: 350px;
+        }
+
+        .button-container button {
+            padding: 15px 20px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: transform 0.2s ease;
+        }
+
+        .button-container button:hover {
+            transform: scale(1.05);
+        }
+
+        .button-add-to-cart {
+            background-color: #ffc226;
+            color: #212121;
+        }
+
+        .button-buy-now {
+            background-color: #ee4d2d;
+            color: white;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f0f0f0;
+            color: #666;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>TOTIKS</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="category.html">Categories</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="product-details">
+        <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/71636e88510e45cd8b7d18db0e55ec1b_9366/adidas_Z.N.E._Full-Zip_Hoodie_Kids_White_IK6861_01_laydown.jpg" alt="adidas Z.N.E. Full-Zip Hoodie">
+        <div class="product-info">
+            <h2>adidas Z.N.E. Full-Zip Hoodie</h2>
+            <p class="price">₱4,299</p>
+            <p class="description">This adidas hoodie, crafted from soft, warm PRIMEKNIT fabric, celebrates sports community with its graphic design. It offers versatile wear with a zip-up hood and a hidden pocket, and is made with at least 70% recycled and renewable materials, promoting sustainability.</p>
+            <div class="button-container">
+                <button class="button-add-to-cart">Add to Cart</button>
+                <button class="button-buy-now">Buy Now</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 TOTIKS</p>
+    </footer>
+</body>
+</html>

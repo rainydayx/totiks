@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOTIKS - Adidas Switch Fwd 2</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+            color: #212121;
+        }
+
+        header {
+            background-color: #ee4d2d;
+            padding: 10px 15px;
+            color: white;
+            display: flex;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 1.5rem;
+            margin-right: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            gap: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+
+        .product-details {
+            padding: 20px;
+            background-color: white;
+            margin: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .image-gallery {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .main-image img {
+            max-width: 400px;
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .thumbnail-images {
+            display: flex;
+            gap: 5px;
+        }
+
+        .thumbnail-images img {
+            width: 70px;
+            height: 70px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .price {
+            color: #ee4d2d;
+            font-weight: 600;
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+
+        .description {
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .size-selection {
+            margin-bottom: 15px;
+        }
+
+        .size-selection label {
+            margin-right: 5px;
+        }
+
+        .size-selection select {
+            padding: 8px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+
+        .reviews {
+            margin-bottom: 20px;
+        }
+
+        .reviews p {
+            margin-bottom: 5px;
+            font-size: 0.9rem;
+            color: #666;
+            background-color: #f0f0f0;
+            padding: 8px;
+            border-radius: 4px;
+        }
+
+        .button-container {
+            display: flex;
+            gap: 10px;
+            flex-direction: column;
+        }
+
+        .button-container button {
+            padding: 12px 18px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            width: 100%;
+            text-align: center;
+        }
+
+        .button-add-to-cart {
+            background-color: #ffc226;
+            color: #212121;
+        }
+
+        .button-buy-now {
+            background-color: #ee4d2d;
+            color: white;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #f0f0f0;
+            color: #666;
+            font-size: 0.8rem;
+        }
+
+        .quantity-selector {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .quantity-selector button {
+            padding: 5px 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .quantity-selector input {
+            width: 40px;
+            text-align: center;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>TOTIKS</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="category.html">Categories</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="product-details">
+        <div class="image-gallery">
+            <div class="main-image">
+                <img src="https://dynamic.zacdn.com/2DBhu18LqV9bbERVKP258LgjIH0=/filters:quality(70):format(webp)/https://static-ph.zacdn.com/p/adidas-2032-4566963-1.jpg" alt="Adidas Switch Fwd 2">
+            </div>
+            <div class="thumbnail-images">
+               <div class="thumbnail-images">
+    <img src="https://assets.adidas.com/images/h_200,f_auto,q_auto,fl_lossy,c_fill,g_auto/84080c15659b4f4586a83df440eac916_9366/Switch_FWD_2_Shoes_Black_JI1458_01_00_standard.jpg" alt="Adidas Switch 1" data-src="https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/84080c15659b4f4586a83df440eac916_9366/Switch_FWD_2_Shoes_Black_JI1458_01_00_standard.jpg">
+    <img src="https://assets.adidas.com/images/h_200,f_auto,q_auto,fl_lossy,c_fill,g_auto/1ac04c50c25641708c7f1e22830b54a5_9366/Switch_FWD_2_Shoes_Black_JI1458_04_standard.jpg" alt="Adidas Switch 2" data-src="https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/1ac04c50c25641708c7f1e22830b54a5_9366/Switch_FWD_2_Shoes_Black_JI1458_04_standard.jpg">
+    <img src="https://assets.adidas.com/images/h_200,f_auto,q_auto,fl_lossy,c_fill,g_auto/1ac04c50c25641708c7f1e22830b54a5_9366/Switch_FWD_2_Shoes_Black_JI1458_04_standard.jpg" alt="Adidas Switch 3" data-src="https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/1ac04c50c25641708c7f1e22830b54a5_9366/Switch_FWD_2_Shoes_Black_JI1458_04_standard.jpg">
+            </div>
+            </div>
+        </div>
+
+        <h2>Adidas Switch Fwd 2 Running Shoes</h2>
+        <p class="price">₱5,999</p>
+        <p class="description">These adidas running shoes enhance your run with a momentum-generating outsole, durable upper, and all-weather grip.</p>
+
+        <div class="size-selection">
+            <label for="size">Size:</label>
+            <select id="size">
+                <option value="US 7">US 7</option>
+                <option value="US 8">US 8</option>
+                <option value="US 9">US 9</option>
+                <option value="US 10">US 10</option>
+                <option value="US 11">US 11</option>
+                <option value="US 12">US 12</option>
+                <option value="US 13">US 13</option>
+            </select>
+        </div>
+
+        <div class="quantity-selector">
+            <button class="quantity-decrease">-</button>
+            <input type="number" class="quantity-input" value="1" min="1">
+            <button class="quantity-increase">+</button>
+        </div>
+
+        <div class="reviews">
+            <p>⭐⭐⭐⭐☆ - Ganda pang regalo sa bf ko</p>
+            <p>⭐⭐⭐⭐⭐ - comfortable naman pang running</p>
+            <p>⭐⭐⭐⭐ - ok nman pasok sa size ko</p>
+            <p>⭐⭐★★★ - Size runs a bit small.</p>
+            <p>⭐⭐⭐⭐⭐ - Bought two times from this store already</p>
+        </div>
+
+        <div class="button-container">
+            <button class="button-add-to-cart">Add to Cart</button>
+            <button class="button-buy-now">Buy Now</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 TOTIKS</p>
+    </footer>
+
+    <script>
+        const quantityInput = document.querySelector('.quantity-input');
+        const decreaseButton = document.querySelector('.quantity-decrease');
+        const increaseButton = document.querySelector('.quantity-increase');
+        const thumbnailImages = document.querySelectorAll('.thumbnail-images img');
+        const mainImage = document.querySelector('.main-image img');
+
+        decreaseButton.addEventListener('click', () => {
+            if (parseInt(quantityInput.value) > 1) {
+                quantityInput.value = parseInt(quantityInput.value) - 1;
+            }
+        });
+
+        increaseButton.addEventListener('click', () => {
+            quantityInput.value = parseInt(quantityInput.value) + 1;
+        });
+
+        thumbnailImages.forEach(thumbnail => {
+            thumbnail.addEventListener('click', () => {
+                mainImage.src = thumbnail.dataset.src;
+            });
+        });
+    </script>
+</body>
+</html>

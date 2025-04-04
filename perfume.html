@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOTIKS - Camou Scents EDP</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+            color: #212121;
+        }
+
+        header {
+            background-color: #ee4d2d;
+            padding: 10px 15px;
+            color: white;
+            display: flex;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 1.5rem;
+            margin-right: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            gap: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+
+        .product-details {
+            padding: 20px;
+            background-color: white;
+            margin: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .image-gallery {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .main-image img {
+            max-width: 400px;
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .thumbnail-images {
+            display: flex;
+            gap: 5px;
+        }
+
+        .thumbnail-images img {
+            width: 70px;
+            height: 70px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .price {
+            color: #ee4d2d;
+            font-weight: 600;
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+
+        .description {
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .reviews {
+            margin-bottom: 20px;
+        }
+
+        .reviews p {
+            margin-bottom: 5px;
+            font-size: 0.9rem;
+            color: #666;
+            background-color: #f0f0f0;
+            padding: 8px;
+            border-radius: 4px;
+        }
+
+        .button-container {
+            display: flex;
+            gap: 10px;
+            flex-direction: column;
+        }
+
+        .button-container button {
+            padding: 12px 18px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            width: 100%;
+            text-align: center;
+        }
+
+        .button-add-to-cart {
+            background-color: #ffc226;
+            color: #212121;
+        }
+
+        .button-buy-now {
+            background-color: #ee4d2d;
+            color: white;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #f0f0f0;
+            color: #666;
+            font-size: 0.8rem;
+        }
+
+        .quantity-selector {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .quantity-selector button {
+            padding: 5px 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .quantity-selector input {
+            width: 40px;
+            text-align: center;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>TOTIKS</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="category.html">Categories</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="product-details">
+        <div class="image-gallery">
+            <div class="main-image">
+                <img src="https://down-ph.img.susercontent.com/file/ph-11134207-7rask-m1r6tmzdrsu663@resize_w900_nl.webp" alt="Camou Scents 50ml EDP">
+            </div>
+            <div class="thumbnail-images">
+                <img src="https://down-ph.img.susercontent.com/file/ph-11134207-7rask-m1r6tmzdrsu663@resize_w900_nl.webp" alt="Camou Scents 1" data-src="https://down-ph.img.susercontent.com/file/ph-11134207-7rask-m1r6tmzdrsu663@resize_w900_nl.webp">
+                <img src="https://down-ph.img.susercontent.com/file/ph-11134207-7ras9-m23zwi629iqn5a@resize_w900_nl.webp" alt="Camou Scents 2" data-src="https://down-ph.img.susercontent.com/file/ph-11134207-7ras9-m23zwi629iqn5a@resize_w900_nl.webp">
+                <img src="https://down-ph.img.susercontent.com/file/ph-11134207-7rasa-m23zwxobkkrjb4.webp" alt="Camou Scents 3" data-src="https://down-ph.img.susercontent.com/file/ph-11134207-7rasa-m23zwxobkkrjb4.webp">
+            </div>
+        </div>
+
+        <h2>Camou Scents 50ml EDP European Fragrance Oil</h2>
+        <p class="price">₱399</p>
+        <p class="description">European Fragrance Oil.</p>
+        <h3>Reviews</h3>
+        <div class="reviews">
+            <p>⭐⭐⭐⭐☆ - At first, it seems almost scentless, but after a few seconds, the fragrance gently unfolds, revealing its essence. I love how this perfume subtly captivates the senses.</p>
+            <p>⭐⭐⭐⭐⭐ - Ang consistent ng packaging ng Camou products ang classy. Legit yung bango saka yung longevity ng fragrance. Amoy pa din the next day.</p>
+            <p>⭐⭐⭐⭐ - good at matagal mawala yung amoy</p>
+            <p>⭐⭐★★★ - Nice designs but smell look ok.</p>
+            <p>⭐⭐⭐⭐⭐ - My first time to try this brand of perfume. It smells nice and not over powering which is good coz I have allergic rhinitis. Thank you Camou. Until next transaction.</p>
+        </div>
+        <div class="quantity-selector">
+            <button class="quantity-decrease">-</button>
+            <input type="number" class="quantity-input" value="1" min="1">
+            <button class="quantity-increase">+</button>
+        </div>
+
+        <div class="button-container">
+            <button class="button-add-to-cart">Add to Cart</button>
+            <button class="button-buy-now">Buy Now</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 TOTIKS</p>
+    </footer>
+
+    <script>
+        const quantityInput = document.querySelector('.quantity-input');
+        const decreaseButton = document.querySelector('.quantity-decrease');
+        const increaseButton = document.querySelector('.quantity-increase');
+        const thumbnailImages = document.querySelectorAll('.thumbnail-images img');
+        const mainImage = document.querySelector('.main-image img');
+
+        decreaseButton.addEventListener('click', () => {
+            if (parseInt(quantityInput.value) > 1) {
+                quantityInput.value = parseInt(quantityInput.value) - 1;
+            }
+        });
+
+        increaseButton.addEventListener('click', () => {
+            quantityInput.value = parseInt(quantityInput.value) + 1;
+        });
+
+        thumbnailImages.forEach(thumbnail => {
+            thumbnail.addEventListener('click', () => {
+                mainImage.src = thumbnail.dataset.src;
+            });
+        });
+    </script>
+</body>
+</html>
